@@ -1,6 +1,7 @@
 # Encode Weekend 1 Project
 
 Contract address: `0x600f8F0e3F7bB5f28C5694013cE71D02eF5A2d3C`
+Explorer: https://docs.google.com/document/d/1G4cjUGiCxfCDDBQYvuzX-GKwl3dALkL362azwYMRyO8
 
 ## Scripts
 
