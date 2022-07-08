@@ -160,8 +160,7 @@ contract Ballot {
     function winningProposal() public view returns (uint256 winningProposal_) {
         uint256 winningVoteCount = 0;
         Proposal[] memory localProposals = proposals;
-        uint256 proposalsLength = localProposals.length;
-        for (uint256 p = 0; p < proposalsLength; p++) {
+        for (uint256 p = 0; p < localProposals.length; p++) {
             if (localProposals[p].voteCount > winningVoteCount) {
                 winningVoteCount = localProposals[p].voteCount;
                 winningProposal_ = p;
