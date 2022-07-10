@@ -110,7 +110,7 @@ describe("Ballot", function () {
   });
 
   describe("when the voter interact with the vote function in the contract", function () {
-    it("should has the right to vote", async function () {
+    it("should not have the right to vote", async function () {
       await expect(vote(ballotContract, accounts[1], 0)).to.be.revertedWith(
         "Has no right to vote"
       );
